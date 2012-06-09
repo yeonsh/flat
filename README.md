@@ -5,18 +5,22 @@ Rename files under subdirectories to flat names
 
 Original file names:
 
-    ./icon/ic_a.png
-    ./icon/ic_b.png
-    ./map/map_a.png
-    ./map/map_b.png
-    ./map/asia/korea.png
-    ./map/asia/japan.png
+    ./img/icon/ic_a.png
+    ./img/icon/ic_b.png
+    ./img/map/map_a.png
+    ./img/map/map_b.png
+    ./img/map/asia/korea.png
+    ./img/map/asia/japan.png
 
-New file name:
+Run *flat*:
 
-    ./icon__ic_a.png
-    ./icon__ic_b.png
-    ./map__map_a.png
-    ./map__map_b.png
-    ./map__asia__korea.png
-    ./map__asia__japan.png
+    python flat.py img
+
+New file names:
+
+    ./img__icon__ic_a.png
+    ./img__icon__ic_b.png
+    ./img__map__map_a.png
+    ./img__map__map_b.png
+    ./img__map__asia__korea.png
+    ./img__map__asia__japan.png
