@@ -12,7 +12,7 @@ Original file names:
     ./img/map/asia/korea.png
     ./img/map/asia/japan.png
 
-Run *flat*:
+Run **flat.py**:
 
     python flat.py img
 
